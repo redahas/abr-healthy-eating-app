@@ -1,0 +1,24 @@
+.fishery-region-card__cont {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--spacing) * 4);
+    border-top: 1px solid #4d4c52;
+    /* border-radius: 0.5rem; */
+    padding: calc(var(--spacing) * 4);
+    /* background: #3c3b3e; */
+    color: #cfcfd2;
+    transition: background 0.2s ease-in-out;
+}
+
+.fishery-region-card__cont:hover {
+    background: #333236;
+}
+.fishery-region-card__cont.no-hover:hover {
+    background: none;
+}
+
+.fishery-region-card__cont h2 {
+    font-size: var(--font-lg);
+    font-weight: 600;
+    color: #cfcfd2;
+}

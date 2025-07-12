@@ -1,0 +1,36 @@
+.app-layout__cont {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: #252527;
+    color: #f5f5f6;
+}
+
+.app-layout__main-cont {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.app-layout__main {
+    flex: 1;
+    overflow-y: auto;
+    background: #252527;
+    color: #f5f5f6;
+}
+
+.app-layout__footer {
+    background-color: #252527;
+    color: #f5f5f6;
+    padding: 1rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+.app-layout__footer-link {
+    color: #60a5fa;
+    text-decoration: none;
+}
+
+.app-layout__footer-link:hover {
+    text-decoration: underline;
+}
